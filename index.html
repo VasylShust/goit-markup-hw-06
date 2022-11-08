@@ -494,7 +494,7 @@
           </address>
         </div>
         <div class="company-soc-link">
-          <h2 class="join-in">Приєднуйтесь</h2>
+          <p class="join-in">Приєднуйтесь</p>
           <ul class="soc-list list">
             <li class="soc-item">
               <a
@@ -537,14 +537,23 @@
                 href=""
                 target="_blank"
                 rel="noreferrer noopener"
-                class="soc-item-link"
-              >
+                class="soc-item-link">
                 <svg class="soc-item-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe">
+          <p class="submit">Підпишiться на розсилку</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="E-mail" name="email-subscribe" class="subscribe-input">
+            <button type="submit" class="subscribe-button">Підписатися</button>
+            <svg class="subscribe-button-icon" width="24px" height="24px">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </form>
         </div>
       </div>
     </footer>
@@ -582,7 +591,15 @@
           </div>
 
           <label for="user-comment" class="label-text">Коментар</label>
-          <textarea name="user-comment" id="user-comment" class="modal-input comment" placeholder="Введіть текст" ></textarea>
+          <textarea name="user-comment" id="user-comment" class="modal-input comment" placeholder="Введіть текст"></textarea>
+          <div class="condition-check-box">
+            <input type="checkbox" name="contract" id="contract" class="input-checkbox invisible">
+          <label for="contract" class="checkbox-text"><span>
+             <svg class="check-icon" width="16" height="15">
+              <use href="./images/icons.svg#icon-check"></use>
+             </svg>
+          </span>Погоджуюся з розсилкою та приймаю<a href="" target="_blank" class="condition">Умови договору</a></label>
+          </div>
           <button type="submit" class="modal-button">Відправити</button>
         </form>
       </div>
