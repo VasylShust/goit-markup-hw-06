@@ -68,9 +68,9 @@ padding-right: 15px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.body{
 
-}
+
+
 .hero{
   text-align: center;
   background-color: #2F303A;
@@ -872,9 +872,7 @@ outline: transparent;
 transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-.modal-input
 
 .modal-input:focus,
 .modal-input:hover,
@@ -990,9 +988,6 @@ fill:#ffffff;
   margin-right: 8px;
 } */
 
-.input-checkbox{
-
-}
 
 /* .input-checkbox:checked + .checkbox-text:before{
  background-color: #2196F3;
